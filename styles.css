@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f7fbff 0%, #eef7ff 100%);
+  color: #1b2a3a;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
+
+.settings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 6px 18px rgba(24, 87, 138, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #c7d6ea;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.lessons-panel,
+.quiz-section,
+.result-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 18px rgba(24, 87, 138, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.lesson-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.lesson-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #dfeaf8;
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+  background: #f9fbff;
+}
+
+.quiz-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.quiz-item {
+  border: 1px solid #dfeaf8;
+  border-radius: 10px;
+  padding: 1rem;
+  background: #f9fbff;
+}
+
+.quiz-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.quiz-item input {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.primary-btn {
+  background: #2f80ed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #1d6fe5;
+}
+
+.hidden {
+  display: none;
+}
+
+.result-section {
+  border-left: 6px solid #2f80ed;
+}
+
+.result-section p {
+  font-size: 1.05rem;
+  margin: 0.2rem 0 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 0.75rem 2.5rem;
+  }
+
+  .settings {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lessons": [
+    {
+      "id": "greetings",
+      "title": "Greetings",
+      "words": [
+        { "en": "hello", "cs": ["ahoj", "dobrý den"] },
+        { "en": "good morning", "cs": ["dobrý den", "dobré ráno"] },
+        { "en": "goodbye", "cs": ["na shledanou", "sbohem"] },
+        { "en": "please", "cs": ["prosím"] },
+        { "en": "thank you", "cs": ["děkuji", "díky"] },
+        { "en": "how are you?", "cs": ["jak se máš?", "jak se máte?"] }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "words": [
+        { "en": "mother", "cs": ["matka", "máma"] },
+        { "en": "father", "cs": ["otec", "táta"] },
+        { "en": "brother", "cs": ["bratr"] },
+        { "en": "sister", "cs": ["sestra"] },
+        { "en": "grandmother", "cs": ["babička"] },
+        { "en": "grandfather", "cs": ["dědeček"] }
+      ]
+    },
+    {
+      "id": "school",
+      "title": "School",
+      "words": [
+        { "en": "book", "cs": ["kniha"] },
+        { "en": "pencil", "cs": ["tužka"] },
+        { "en": "student", "cs": ["student", "žák"] },
+        { "en": "teacher", "cs": ["učitel", "učitelka"] },
+        { "en": "classroom", "cs": ["třída", "učebna"] },
+        { "en": "homework", "cs": ["domácí úkol"] }
+      ]
+    }
+  ]
+}
