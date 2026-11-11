@@ -1,39 +1,31 @@
 {
   "lessons": [
     {
-      "id": "greetings",
-      "title": "Greetings",
+      "id": "1a-hello",
+      "title": "1A Hello — Greetings / Introductions",
       "words": [
-        { "en": "hello", "cs": ["ahoj", "dobrý den"] },
-        { "en": "good morning", "cs": ["dobrý den", "dobré ráno"] },
-        { "en": "goodbye", "cs": ["na shledanou", "sbohem"] },
-        { "en": "please", "cs": ["prosím"] },
-        { "en": "thank you", "cs": ["děkuji", "díky"] },
-        { "en": "how are you?", "cs": ["jak se máš?", "jak se máte?"] }
-      ]
-    },
-    {
-      "id": "family",
-      "title": "Family",
-      "words": [
-        { "en": "mother", "cs": ["matka", "máma"] },
-        { "en": "father", "cs": ["otec", "táta"] },
-        { "en": "brother", "cs": ["bratr"] },
-        { "en": "sister", "cs": ["sestra"] },
-        { "en": "grandmother", "cs": ["babička"] },
-        { "en": "grandfather", "cs": ["dědeček"] }
-      ]
-    },
-    {
-      "id": "school",
-      "title": "School",
-      "words": [
-        { "en": "book", "cs": ["kniha"] },
-        { "en": "pencil", "cs": ["tužka"] },
-        { "en": "student", "cs": ["student", "žák"] },
-        { "en": "teacher", "cs": ["učitel", "učitelka"] },
-        { "en": "classroom", "cs": ["třída", "učebna"] },
-        { "en": "homework", "cs": ["domácí úkol"] }
+        { "en": "class", "cs": ["třída", "třída (žáci)"] },
+        { "en": "dialogue", "cs": ["rozhovor"] },
+        { "en": "different", "cs": ["různý"] },
+        { "en": "expression", "cs": ["výraz"] },
+        { "en": "introduce", "cs": ["představit", "představit se"] },
+        { "en": "partner", "cs": ["partner"] },
+        { "en": "Bye.", "cs": ["nashle", "ahoj"] },
+        { "en": "Good afternoon.", "cs": ["dobré odpoledne"] },
+        { "en": "Goodbye.", "cs": ["na shledanou"] },
+        { "en": "Good evening.", "cs": ["dobrý večer"] },
+        { "en": "Good morning.", "cs": ["dobré ráno"] },
+        { "en": "Good night.", "cs": ["dobrou noc"] },
+        { "en": "Hello.", "cs": ["ahoj"] },
+        { "en": "Hi!", "cs": ["ahoj"] },
+        { "en": "How are you?", "cs": ["jak se máš?", "jak se máte?"] },
+        { "en": "I'm ...", "cs": ["já jsem ..."] },
+        { "en": "I'm fine, thanks.", "cs": ["mám se dobře, děkuji"] },
+        { "en": "It's ...", "cs": ["to je ..."] },
+        { "en": "My name's ...", "cs": ["jmenuji se ..."] },
+        { "en": "See you (later).", "cs": ["na viděnou (později)"] },
+        { "en": "What's your name?", "cs": ["jak se jmenuješ?", "jak se jmenujete?"] },
+        { "en": "Who's this?", "cs": ["kdo je to?"] }
       ]
     }
   ]
