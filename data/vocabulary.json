@@ -111,6 +111,40 @@
         { "en": "phone number", "cs": ["telefonní číslo"] },
         { "en": "number", "cs": ["číslo"] }
       ]
+    },
+    {
+      "id": "1c-middle-column",
+      "title": "1C Words (middle column)",
+      "words": [
+        { "en": "at", "cs": ["na"] },
+        { "en": "be careful!", "cs": ["buď opatrný!"] },
+        { "en": "bone", "cs": ["kost"] },
+        { "en": "collect", "cs": ["sbírat"] },
+        { "en": "come", "cs": ["přijít"] },
+        { "en": "continue", "cs": ["pokračovat"] },
+        { "en": "double", "cs": ["zdvojený", "dvojitý", "dva"] },
+        { "en": "down", "cs": ["dolů", "dole"] },
+        { "en": "gate", "cs": ["branka"] },
+        { "en": "give", "cs": ["dát", "dávat"] },
+        { "en": "heaven", "cs": ["nebe"] },
+        { "en": "hive", "cs": ["úl"] },
+        { "en": "home", "cs": ["domov"] },
+        { "en": "mine", "cs": ["důl"] },
+        { "en": "my", "cs": ["můj", "má", "moje"] },
+        { "en": "number", "cs": ["číslo"] },
+        { "en": "old", "cs": ["starý"] },
+        { "en": "on", "cs": ["na"] },
+        { "en": "phone number", "cs": ["telefonní číslo"] },
+        { "en": "play", "cs": ["hrát", "hrát si"] },
+        { "en": "roll over", "cs": ["překulit se"] },
+        { "en": "shoe", "cs": ["bota"] },
+        { "en": "some", "cs": ["nějaký", "nějaká", "nějaké"] },
+        { "en": "stick", "cs": ["hůlka", "klacek"] },
+        { "en": "this", "cs": ["tento", "tato", "toto"] },
+        { "en": "tree", "cs": ["strom"] },
+        { "en": "up", "cs": ["nahoře", "nahoru", "na"] },
+        { "en": "What's your mobile number?", "cs": ["jaké číslo máš na mobilu?", "jaké číslo máte na mobilu?"] }
+      ]
     }
   ]
 }
