@@ -40,7 +40,7 @@ const getAcceptedAnswers = (word, language) => {
 
 const loadVocabulary = async () => {
   try {
-    const response = await fetch('data/vocabulary.json');
+    const response = await fetch('data/vocabulary.json', {cache: 'no-store',});
     if (!response.ok) throw new Error('Could not load vocabulary file.');
     vocabulary = await response.json();
     renderLessons();
