@@ -155,7 +155,7 @@
         { "en": "seventy", "cs": ["sedmdesát"] },
         { "en": "eighty", "cs": ["osmdesát"] },
         { "en": "ninety", "cs": ["devadesát"] },
-        { "en": "hundred", "cs": ["sto"] },
+        { "en": "hundred", "cs": ["sto"] }
       ]
     }
   ]
