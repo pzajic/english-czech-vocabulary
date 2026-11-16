@@ -117,8 +117,6 @@ const buildOptions = (quizItem, targetVocabulary) => {
     distractors.push(answer);
   });
 
-  // Use one accepted translation as the visible correct choice; other accepted
-  // translations are still accepted when checking the answer.
   return shuffle([quizItem.acceptedAnswers[0], ...shuffle(distractors).slice(0, 4)]);
 };
 
@@ -150,6 +148,9 @@ const generateQuiz = () => {
     userAnswer: '',
     sourceCode,
     targetCode,
+    isCorrect: false,
+    isSpellingSlip: false,
+    isIncorrect: false,
   }));
 
   if (getQuizMode() === 'drag') {
@@ -172,6 +173,7 @@ const chooseOption = (questionIndex, optionIndex) => {
   if (!item || !item.options[optionIndex]) return;
   item.userAnswer = item.options[optionIndex];
   const slot = quizList.querySelector(`[data-drop-slot="${questionIndex}"]`);
+  if (!slot) return;
   slot.textContent = item.userAnswer;
   slot.classList.add('has-answer');
   slot.setAttribute('aria-label', `Selected answer: ${item.userAnswer}`);
@@ -183,6 +185,7 @@ const renderQuiz = () => {
   currentQuiz.forEach((item, index) => {
     const card = document.createElement('article');
     card.className = 'quiz-item';
+    card.dataset.questionIndex = String(index);
 
     const prompt = document.createElement('h3');
     prompt.textContent = `${index + 1}. ${item.prompt}`;
@@ -239,6 +242,36 @@ const renderQuiz = () => {
   });
 };
 
+const applyResultStyles = () => {
+  currentQuiz.forEach((item, index) => {
+    const card = quizList.querySelector(`[data-question-index="${index}"]`);
+    if (!card) return;
+    card.classList.remove('is-correct', 'is-spelling-slip', 'is-incorrect');
+    if (item.isCorrect) {
+      card.classList.add('is-correct');
+    } else if (item.isSpellingSlip) {
+      card.classList.add('is-spelling-slip');
+    } else if (item.isIncorrect) {
+      card.classList.add('is-incorrect');
+    }
+
+    const inputOrSlot = getQuizMode() === 'type'
+      ? card.querySelector('input')
+      : card.querySelector('.drop-slot');
+
+    if (inputOrSlot) {
+      inputOrSlot.classList.remove('is-correct', 'is-spelling-slip', 'is-incorrect');
+      if (item.isCorrect) {
+        inputOrSlot.classList.add('is-correct');
+      } else if (item.isSpellingSlip) {
+        inputOrSlot.classList.add('is-spelling-slip');
+      } else if (item.isIncorrect) {
+        inputOrSlot.classList.add('is-incorrect');
+      }
+    }
+  });
+};
+
 const addResultLine = (list, text, className) => {
   const line = document.createElement('li');
   line.className = className;
@@ -259,19 +292,32 @@ const submitQuiz = () => {
 
   currentQuiz.forEach((item) => {
     const exact = item.acceptedAnswers.some((answer) => normalizeText(answer) === normalizeText(item.userAnswer));
-    if (exact) return;
+    if (exact) {
+      item.isCorrect = true;
+      item.isSpellingSlip = false;
+      item.isIncorrect = false;
+      return;
+    }
 
     const nearMatch = getQuizMode() === 'type'
       ? item.acceptedAnswers.find((answer) => hasOneSpellingError(item.userAnswer, answer))
       : null;
     if (nearMatch) {
+      item.isCorrect = false;
+      item.isSpellingSlip = true;
+      item.isIncorrect = false;
       spellingSlips.push(`${item.prompt}: you wrote “${item.userAnswer}”; correct spelling: “${nearMatch}”. Counted as correct.`);
       return;
     }
 
+    item.isCorrect = false;
+    item.isSpellingSlip = false;
+    item.isIncorrect = true;
     errors += 1;
     incorrect.push(`${item.prompt} → ${item.acceptedAnswers.join(' / ')}`);
   });
+
+  applyResultStyles();
 
   resultSummary.textContent = errors === 0
     ? `Great job! No incorrect answers. (${spellingSlips.length} spelling slip${spellingSlips.length === 1 ? '' : 's'} counted as correct.)`
