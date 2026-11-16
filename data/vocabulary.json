@@ -77,6 +77,46 @@
         { "en": "please", "cs": ["prosím"] },
         { "en": "exercise", "cs": ["cvičení", "úloha"] }
       ]
+    },
+    {
+      "id": "1c-numbers",
+      "title": "1C Numbers",
+      "words": [
+        { "en": "zero", "cs": ["nula"] },
+        { "en": "one", "cs": ["jedna", "jeden"] },
+        { "en": "two", "cs": ["dva", "dvě"] },
+        { "en": "three", "cs": ["tři"] },
+        { "en": "four", "cs": ["čtyři"] },
+        { "en": "five", "cs": ["pět"] },
+        { "en": "six", "cs": ["šest"] },
+        { "en": "seven", "cs": ["sedm"] },
+        { "en": "eight", "cs": ["osm"] },
+        { "en": "nine", "cs": ["devět"] },
+        { "en": "ten", "cs": ["deset"] },
+        { "en": "eleven", "cs": ["jedenáct"] },
+        { "en": "twelve", "cs": ["dvanáct"] },
+        { "en": "thirteen", "cs": ["třináct"] },
+        { "en": "fourteen", "cs": ["čtrnáct"] },
+        { "en": "fifteen", "cs": ["patnáct"] },
+        { "en": "sixteen", "cs": ["šestnáct"] },
+        { "en": "seventeen", "cs": ["sedmnáct"] },
+        { "en": "eighteen", "cs": ["osmnáct"] },
+        { "en": "nineteen", "cs": ["devatenáct"] },
+        { "en": "twenty", "cs": ["dvacet"] },
+        { "en": "twenty-one", "cs": ["dvacet jedna"] },
+        { "en": "twenty-two", "cs": ["dvacet dva"] },
+        { "en": "thirty", "cs": ["třicet"] },
+        { "en": "forty", "cs": ["čtyřicet"] },
+        { "en": "fifty", "cs": ["padesát"] },
+        { "en": "sixty", "cs": ["šedesát"] },
+        { "en": "seventy", "cs": ["sedmdesát"] },
+        { "en": "eighty", "cs": ["osmdesát"] },
+        { "en": "ninety", "cs": ["devadesát"] },
+        { "en": "hundred", "cs": ["sto"] },
+        { "en": "how old are you?", "cs": ["kolik je ti let?", "kolik je vám let?"] },
+        { "en": "phone number", "cs": ["telefonní číslo"] },
+        { "en": "number", "cs": ["číslo"] }
+      ]
     }
   ]
 }
