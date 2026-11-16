@@ -30,7 +30,7 @@
     },
     {
       "id": "1b-in-the-classroom",
-      "title": "1B In the classroom",
+      "title": "1B In the classroom / Instructions",
       "words": [
         { "en": "book", "cs": ["kniha"] },
         { "en": "bag", "cs": ["taška"] },
@@ -51,13 +51,7 @@
         { "en": "wall", "cs": ["stěna"] },
         { "en": "pen", "cs": ["pero"] },
         { "en": "rubber", "cs": ["guma"] },
-        { "en": "teacher", "cs": ["učitel", "učitelka"] }
-      ]
-    },
-    {
-      "id": "1b-instructions",
-      "title": "1B Instructions",
-      "words": [
+        { "en": "teacher", "cs": ["učitel", "učitelka"] },
         { "en": "close", "cs": ["zavři", "zavřete"] },
         { "en": "open", "cs": ["otevři", "otevřete"] },
         { "en": "look", "cs": ["koukni", "podívej", "podívejte"] },
