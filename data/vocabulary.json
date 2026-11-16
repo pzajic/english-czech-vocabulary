@@ -27,6 +27,56 @@
         { "en": "What's your name?", "cs": ["jak se jmenuješ?", "jak se jmenujete?"] },
         { "en": "Who's this?", "cs": ["kdo je to?"] }
       ]
+    },
+    {
+      "id": "1b-in-the-classroom",
+      "title": "1B In the classroom",
+      "words": [
+        { "en": "book", "cs": ["kniha"] },
+        { "en": "bag", "cs": ["taška"] },
+        { "en": "chair", "cs": ["židle"] },
+        { "en": "desk", "cs": ["lavice", "stůl"] },
+        { "en": "door", "cs": ["dveře"] },
+        { "en": "window", "cs": ["okno"] },
+        { "en": "exercise book", "cs": ["sešit"] },
+        { "en": "classroom", "cs": ["třída", "učebna"] },
+        { "en": "school", "cs": ["škola"] },
+        { "en": "house", "cs": ["dům"] },
+        { "en": "home", "cs": ["domov"] },
+        { "en": "table", "cs": ["stůl"] },
+        { "en": "pencil", "cs": ["tužka"] },
+        { "en": "ruler", "cs": ["pravítko"] },
+        { "en": "board", "cs": ["tabule"] },
+        { "en": "picture", "cs": ["obrázek"] },
+        { "en": "wall", "cs": ["stěna"] },
+        { "en": "pen", "cs": ["pero"] },
+        { "en": "rubber", "cs": ["guma"] },
+        { "en": "teacher", "cs": ["učitel", "učitelka"] }
+      ]
+    },
+    {
+      "id": "1b-instructions",
+      "title": "1B Instructions",
+      "words": [
+        { "en": "close", "cs": ["zavři", "zavřete"] },
+        { "en": "open", "cs": ["otevři", "otevřete"] },
+        { "en": "look", "cs": ["koukni", "podívej", "podívejte"] },
+        { "en": "listen", "cs": ["poslouchej", "poslouchejte"] },
+        { "en": "read", "cs": ["čti", "přečti", "čtěte"] },
+        { "en": "write", "cs": ["piš", "napiš", "pište"] },
+        { "en": "say", "cs": ["řekni", "řekněte"] },
+        { "en": "repeat", "cs": ["opakuj", "opakujte"] },
+        { "en": "stand up", "cs": ["vstávej", "vstaňte"] },
+        { "en": "sit down", "cs": ["posaď se", "posaďte se"] },
+        { "en": "put down", "cs": ["polož", "položte"] },
+        { "en": "take", "cs": ["vezmi", "vezměte"] },
+        { "en": "give", "cs": ["dej", "dejte"] },
+        { "en": "show", "cs": ["ukaž", "ukažte"] },
+        { "en": "go to", "cs": ["jdi do", "jděte do"] },
+        { "en": "be careful", "cs": ["buď opatrný", "buďte opatrní"] },
+        { "en": "please", "cs": ["prosím"] },
+        { "en": "exercise", "cs": ["cvičení", "úloha"] }
+      ]
     }
   ]
 }
