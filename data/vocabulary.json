@@ -30,7 +30,7 @@
     },
     {
       "id": "1b-in-the-classroom",
-      "title": "1B In the classroom / Instructions",
+      "title": "1B In the classroom",
       "words": [
         { "en": "apple", "cs": ["jablko"] },
         { "en": "bag", "cs": ["taška", "školní batoh"] },
@@ -59,6 +59,28 @@
         { "en": "Why?", "cs": ["Proč?"] },
         { "en": "window", "cs": ["okno"] },
         { "en": "woman", "cs": ["žena"] }
+      ]
+    },
+    {
+      "id": "instructions-sentences",
+      "title": "1B Instructions",
+      "words": [
+        { "en": "Close your exercise book.", "cs": ["Zavři si sešit.", "Zavřete si sešit."] },
+        { "en": "Come here.", "cs": ["Pojď sem.", "Pojďte sem."] },
+        { "en": "Don't listen.", "cs": ["Neslyš.", "Nepošťoujte."] },
+        { "en": "Draw.", "cs": ["Kresli.", "Kreslete."] },
+        { "en": "Give me your book, please.", "cs": ["Dej mi svou knihu, prosím.", "Dejte mi svou knihu, prosím."] },
+        { "en": "Go to the board.", "cs": ["Jdi k tabuli.", "Jděte k tabuli."] },
+        { "en": "Listen.", "cs": ["Poslouchej.", "Poslouchejte."] },
+        { "en": "Look at the picture.", "cs": ["Podívej se na obrázek.", "Podívejte se na obrázek."] },
+        { "en": "Open your exercise book.", "cs": ["Otevři si sešit.", "Otevřete si sešit."] },
+        { "en": "Pick up your pencil.", "cs": ["Vezmi si tužku.", "Vezměte si tužku."] },
+        { "en": "Put down your pencil.", "cs": ["Polož tužku.", "Položte tužku."] },
+        { "en": "Read.", "cs": ["Čti.", "Čtěte."] },
+        { "en": "Say 'Good morning'.", "cs": ["Řekni „dobré ráno“.", "Řekněte „dobré ráno“."] },
+        { "en": "Sit down.", "cs": ["Sedni si.", "Sedněte si."] },
+        { "en": "Stand up.", "cs": ["Vstaň.", "Stoupni.", "Vstupte si."] },
+        { "en": "Write on the board.", "cs": ["Piš na tabuli.", "Pište na tabuli."] }
       ]
     },
     {
