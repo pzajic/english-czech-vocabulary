@@ -3,59 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vocabulary Quiz</title>
+    <meta name="theme-color" content="#eef7ff" />
+    <title>English / Czech Vocabulary</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <header>
-        <h1>English / Czech Vocabulary</h1>
+        <p class="eyebrow">Learn a little every day</p>
+        <h1>English <span aria-hidden="true">↔</span> Czech</h1>
+        <p class="subtitle">Choose a lesson and practise your vocabulary.</p>
       </header>
 
-      <section class="settings">
+      <section class="settings" aria-label="Quiz settings">
         <div class="field-group">
-          <label for="sourceLanguage">Source language</label>
+          <label for="sourceLanguage">I know</label>
           <select id="sourceLanguage">
             <option value="en">English</option>
             <option value="cs">Czech</option>
           </select>
         </div>
-
         <div class="field-group">
-          <label for="targetLanguage">Target language</label>
+          <label for="targetLanguage">I want to practise</label>
           <select id="targetLanguage">
             <option value="cs">Czech</option>
             <option value="en">English</option>
           </select>
         </div>
-
         <div class="field-group">
-          <label for="wordCount">Number of words</label>
+          <label for="wordCount">Questions</label>
           <input id="wordCount" type="number" min="1" max="50" value="10" />
         </div>
+        <fieldset class="field-group mode-picker">
+          <legend>Quiz mode</legend>
+          <label class="mode-option"><input type="radio" name="quizMode" value="drag" checked /> Choose and place</label>
+          <label class="mode-option"><input type="radio" name="quizMode" value="type" /> Type the answer</label>
+        </fieldset>
       </section>
 
-      <section class="lessons-panel">
-        <h2>Select lessons</h2>
-        <div id="lessonList" class="lesson-list"></div>
+      <section class="panel lessons-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Make it your own</p>
+            <h2>Select lessons</h2>
+          </div>
+        </div>
+        <div id="lessonList" class="lesson-list" aria-live="polite"></div>
       </section>
 
       <div class="actions">
-        <button id="generateQuizBtn" class="primary-btn">Generate quiz</button>
+        <button id="generateQuizBtn" class="primary-btn">Start a quiz</button>
       </div>
 
-      <section id="quizSection" class="quiz-section hidden">
+      <section id="quizSection" class="panel quiz-section hidden" aria-label="Vocabulary quiz">
+        <p id="quizInstructions" class="quiz-instructions"></p>
         <div id="quizList" class="quiz-list"></div>
         <div class="actions">
-          <button id="submitQuizBtn" class="primary-btn">Submit</button>
+          <button id="submitQuizBtn" class="primary-btn">Check my answers</button>
         </div>
       </section>
 
-      <section id="resultSection" class="result-section hidden">
+      <section id="resultSection" class="panel result-section hidden" aria-live="polite">
+        <p class="eyebrow">Quiz complete</p>
         <h2>Results</h2>
         <p id="resultSummary"></p>
+        <div id="resultDetails"></div>
       </section>
-    </div>
+    </main>
 
     <script src="app.js"></script>
   </body>
