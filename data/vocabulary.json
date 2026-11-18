@@ -157,6 +157,39 @@
         { "en": "ninety", "cs": ["devadesát"] },
         { "en": "hundred", "cs": ["sto"] }
       ]
+    },
+    "id": "1d-how-do-you-spell-that",
+      "title": "1D How do you spell that?",
+      "words": [
+        { "en": "alphabet", "cs": ["abeceda"] },
+        { "en": "box", "cs": ["krabice"] },
+        { "en": "boxes", "cs": ["krabice"] },
+        { "en": "car", "cs": ["auto"] },
+        { "en": "child", "cs": ["dítě"] },
+        { "en": "children", "cs": ["děti (mn.č.)"] },
+        { "en": "column", "cs": ["sloupec", "sloupek"] },
+        { "en": "glass", "cs": ["sklenice"] },
+        { "en": "glasses", "cs": ["sklenice (mn.č.)"] },
+        { "en": "How do you spell ...?", "cs": ["Jak se píše ...?"] },
+        { "en": "letter", "cs": ["písmeno"] },
+        { "en": "Let's ...", "cs": ["rozkázací tvar", "Rozkažme ..."] },
+        { "en": "(Pojďme a ...)", "cs": ["pojďme ..."] },
+        { "en": "me", "cs": ["mnou", "mi", "mě"] },
+        { "en": "men", "cs": ["muži", "pánové"] },
+        { "en": "only", "cs": ["pouze", "jen"] },
+        { "en": "oranges", "cs": ["pomeranče"] },
+        { "en": "people", "cs": ["lidé"] },
+        { "en": "person", "cs": ["člověk", "osoba"] },
+        { "en": "plural", "cs": ["množné číslo"] },
+        { "en": "singular", "cs": ["jednotné číslo"] },
+        { "en": "table", "cs": ["tabulka"] },
+        { "en": "There’s / There are ...", "cs": ["Tam je / Tam jsou ..."] },
+        { "en": "toothbrush", "cs": ["kartáček na zuby"] },
+        { "en": "toothbrushes", "cs": ["kartáčky na zuby"] },
+        { "en": "watches", "cs": ["hodinky (mn.č.)"] },
+        { "en": "woman", "cs": ["žena"] }
+        { "en": "women", "cs": ["ženy"] }
+      ]
     }
   ]
 }
