@@ -158,7 +158,8 @@
         { "en": "hundred", "cs": ["sto"] }
       ]
     },
-    "id": "1d-how-do-you-spell-that",
+    {
+      "id": "1d-how-do-you-spell-that",
       "title": "1D How do you spell that?",
       "words": [
         { "en": "alphabet", "cs": ["abeceda"] },
